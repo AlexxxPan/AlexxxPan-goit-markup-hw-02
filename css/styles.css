@@ -121,7 +121,7 @@ body {
   color: #757575;
 }
 .logo-footer-part {
-    color: #FFFFFF;  
+  color: #ffffff;
 }
 .address {
   font-family: "Roboto", sans-serif;
@@ -148,4 +148,36 @@ footer {
 .footer-mail:focus,
 .footer-tel:focus {
   color: #2196f3;
+}
+/* Друга сторінка */
+
+.filter-btn {
+  font-family: inherit;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #212121;
+}
+.filter-btn:hover {
+  color: #ffffff;
+  background-color: #2196f3;
+}
+.filter-btn:focus {
+  color: #2196f3;
+}
+.project {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+  color: #212121;
+}
+.worktitle {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.88;
+  letter-spacing: 0.03em;
+  color: #757575;
 }
