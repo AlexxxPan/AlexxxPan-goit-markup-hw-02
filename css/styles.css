@@ -1,6 +1,8 @@
 body {
   font-family: "Roboto", sans-serif;
-}
+  color: #212121;
+  background-color: #F5F5F5;
+  }
 .logo {
   font-family: "Raleway", sans-serif;
   font-weight: 700;
@@ -72,6 +74,14 @@ body {
   letter-spacing: 0.06em;
   color: #ffffff;
   background: #2196f3;
+  cursor: pointer;
+}
+.hero-btn:hover {
+  color: #ffffff;
+  background-color: #2196f3;
+}
+.hero-btn:focus {
+  color: #ffffff;
 }
 .benefits-title {
   font-weight: 700;
@@ -159,7 +169,8 @@ footer {
   text-align: center;
   letter-spacing: 0.03em;
   color: #212121;
-}
+  cursor: pointer;
+  }
 .filter-btn:hover {
   color: #ffffff;
   background-color: #2196f3;
