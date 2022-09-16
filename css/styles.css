@@ -1,18 +1,33 @@
+:root {
+  --main-page-tle-color: #f5f5f5;
+  --main-font-color: #212121;
+  --accent-color: #2196f3;
+  --contacts-color: #757575;
+  --benefits-text-color: #757575;
+  --header-main-color: #ffffff;
+  --btn-accent-color: #ffffff;
+  --hero-background-color: #2f303a;
+  --footer-backgrd-color: #2f303a;
+  }
 body {
   font-family: "Roboto", sans-serif;
-  color: #212121;
-  background-color: #F5F5F5;
-  }
+  font-size: 14px;
+  letter-spacing: 0.03em;
+  color: var(--main-font-color); 
+  background-color: var(--main-page-tle-color);
+}
+.header {
+  background-color: var(--header-main-color);
+}
 .logo {
   font-family: "Raleway", sans-serif;
   font-weight: 700;
   font-size: 26px;
   line-height: 1.19;
-  letter-spacing: 0.03em;
-  color: #2196f3;
+    color: var(--accent-color);
 }
 .logo-header-part {
-  color: #212121;
+  color:var(--main-font-color);
 }
 
 .header-link {
@@ -20,13 +35,13 @@ body {
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
-  color: #212121;
+  color: var(--main-font-color);
 }
 .header-link:hover {
-  color: #2196f3;
+  color: var(--accent-color);
 }
 .header-link:focus {
-  color: #2196f3;
+  color: var(--accent-color);
 }
 .header-mail,
 .header-tel {
@@ -34,15 +49,15 @@ body {
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
-  color: #757575;
+  color: var(--contacts-color);
 }
 .header-mail:hover,
 .header-tel:hover {
-  color: #2196f3;
+  color: var(--accent-color);
 }
 .header-mail:focus,
 .header-tel:focus {
-  color: #2196f3;
+  color: var(--accent-color);
 }
 
 .list {
@@ -52,7 +67,7 @@ body {
   text-decoration: none;
 }
 .hero {
-  background-color: #2f303a;
+  background-color: var(--hero-background-color);
 }
 .hero-title {
   font-weight: 900;
@@ -61,7 +76,7 @@ body {
   text-align: center;
   letter-spacing: 0.06em;
   text-transform: uppercase;
-  color: #ffffff;
+  color: var(--btn-accent-color);
 }
 .hero-btn {
   font-family: inherit;
@@ -72,66 +87,64 @@ body {
   align-items: center;
   text-align: center;
   letter-spacing: 0.06em;
-  color: #ffffff;
-  background: #2196f3;
+  color: var (--main-page-tittle-color);
+  background: var(--accent-color);
   cursor: pointer;
 }
 .hero-btn:hover {
-  color: #ffffff;
-  background-color: #2196f3;
+  color: var(--btn-accent-color);
+  background-color: var(--accent-color);
 }
 .hero-btn:focus {
-  color: #ffffff;
+  color: var(--btn-accent-color);
+  background-color: var(--accent-color);
 }
 .benefits-title {
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
-  letter-spacing: 0.03em;
-  text-transform: uppercase;
-  color: #212121;
+    text-transform: uppercase;
+  color: var(--main-font-color);
 }
 .benefits-text {
   font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
-  letter-spacing: 0.03em;
-  color: #757575;
+  color: var(--benefits-text-color);
 }
 .mission {
   font-weight: 700;
   font-size: 36px;
   line-height: 1.17;
   text-align: center;
-  letter-spacing: 0.03em;
-  color: #212121;
+  color: var(--main-font-color);
 }
 .team {
   font-weight: 700;
   font-size: 36px;
   line-height: 1.17;
   text-align: center;
-  letter-spacing: 0.03em;
-  color: #212121;
+  color: var(--main-font-color);
 }
 .employee {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.19;
   text-align: center;
-  letter-spacing: 0.03em;
-  color: #212121;
+  color: var(--main-font-color);
 }
 .jobtitle {
   font-weight: 400;
   font-size: 16px;
   line-height: 1.19;
   text-align: center;
-  letter-spacing: 0.03em;
-  color: #757575;
+  color: var(--benefits-text-color);
 }
+
+/* -----Підвал----- */
+
 .logo-footer-part {
-  color: #ffffff;
+  color: var(--btn-accent-color);
 }
 .address {
   font-family: "Roboto", sans-serif;
@@ -140,10 +153,10 @@ body {
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
-  color: #ffffff;
+  color: var(--header-main-color);
 }
 footer {
-  background-color: #2f303a;
+  background-color: var(--footer-backgrd-color);
 }
 .footer-mail,
 .footer-tel {
@@ -157,9 +170,9 @@ footer {
 }
 .footer-mail:focus,
 .footer-tel:focus {
-  color: #2196f3;
+  color: var(--accent-color);
 }
-/* Друга сторінка */
+/* -----Друга сторінка----- */
 
 .filter-btn {
   font-family: inherit;
@@ -170,38 +183,42 @@ footer {
   letter-spacing: 0.03em;
   color: #212121;
   cursor: pointer;
-  }
-.filter-btn:hover {
-  color: #ffffff;
-  background-color: #2196f3;
+}
+
+.filter-btn:hover, 
+.filter-btn:focus  {
+  color: var(--accent-color);
+ }
+
+/* .filter-btn:hover {
+  color: var(--btn-accent-color);
+  background-color: var(--accent-color);
 }
 .filter-btn:focus {
-  color: #2196f3;
-}
+  color: var(--accent-color);
+} */
 .visually-hidden {
-  .visually-hidden {
-    position: absolute;
-     white-space: nowrap;
-     width: 1px;
-     height: 1px;
-     overflow: hidden;
-     border: 0;
-     padding: 0;
-     clip: rect(0 0 0 0);
-     clip-path: inset(50%);
-     margin: -1px;
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  border: 0;
+  padding: 0;
+  clip: rect(0 0 0 0);
+  clip-path: inset(50%);
+  margin: -1px;
 }
 .project {
   font-weight: 700;
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
-  color: #212121;
+  color: var(--main-font-color);
 }
 .worktitle {
   font-weight: 400;
   font-size: 16px;
   line-height: 1.88;
-  letter-spacing: 0.03em;
-  color: #757575;
+  color: var(--contacts-color);
 }
