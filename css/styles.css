@@ -184,19 +184,13 @@ footer {
   color: #212121;
   cursor: pointer;
 }
-
-.filter-btn:hover, 
-.filter-btn:focus  {
-  color: var(--accent-color);
- }
-
-/* .filter-btn:hover {
+.filter-btn:hover {
   color: var(--btn-accent-color);
   background-color: var(--accent-color);
 }
 .filter-btn:focus {
-  color: var(--accent-color);
-} */
+  color: var(--btn-accent-color);
+}
 .visually-hidden {
   position: absolute;
   white-space: nowrap;
