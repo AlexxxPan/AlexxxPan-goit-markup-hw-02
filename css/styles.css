@@ -37,6 +37,9 @@ body {
   letter-spacing: 0.02em;
   color: var(--main-font-color);
 }
+.current {
+  color: #2196f3;
+}
 .header-link:hover {
   color: var(--accent-color);
 }
@@ -66,6 +69,8 @@ body {
 .link {
   text-decoration: none;
 }
+/* ----Герой---- */
+
 .hero {
   background-color: var(--hero-background-color);
 }
@@ -112,6 +117,7 @@ body {
   line-height: 1.71;
   color: var(--benefits-text-color);
 }
+/* ----Основна діяльність компанії--- */
 .mission {
   font-weight: 700;
   font-size: 36px;
